@@ -1,0 +1,159 @@
+body{
+    background-color: cadetblue;
+}
+header{
+    background-color: darkgrey;
+}
+
+footer{
+    background: black;
+}
+
+footer .row{
+    color: white;
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #f0f0f0; /* Color de fondo */
+    padding: 20px; /* Espacio interno */
+    text-align: center; /* Alineación del texto */
+}
+
+/* Estilos para el texto "Contactenos" */
+footer h2 {
+    margin-bottom: 10px; /* Espacio debajo del texto */
+}
+
+/* Estilos para los logos de redes sociales */
+.redes-sociales {
+    margin-top: 20px; /* Espacio encima de los logos */
+}
+
+.redes-sociales a {
+    margin: 0 10px; /* Espacio entre los logos */
+}
+
+.redes-sociales img {
+    width: 30px; /* Tamaño de los logos */
+    height: auto; /* Mantener la proporción */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f50a0a;
+    text-align: center;
+}
+
+#nuevos {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .card {
+    flex: 1 0 18rem; /* Esto permite que las tarjetas tengan un tamaño flexible y se ajusten automáticamente */
+    margin: 10px; /* Espacio entre las tarjetas */
+  }
+
+  #tupapa{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .card {
+    flex: 1 0 18rem; /* Esto permite que las tarjetas tengan un tamaño flexible y se ajusten automáticamente */
+    margin: 10px; /* Espacio entre las tarjetas */
+  }
+  
+  #autosmeno {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Esto distribuirá las tarjetas de manera uniforme en el contenedor */
+  }
+  #carrote3, #carrote4, #carrote5, #carrote6 {
+    flex: 1 0 18rem; /* Esto permite que las tarjetas tengan un tamaño flexible y se ajusten automáticamente */
+    margin: 10px; /* Espacio entre las tarjetas */
+  }
+  
+  .formulario-titulo {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.campo-input {
+  margin-bottom: 15px;
+}
+.campo-input label {
+  font-weight: bold;
+  color: #666;
+}
+.campo-input input[type="text"],
+.campo-input select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.seleccion-pago label {
+  display: block;
+  font-weight: bold;
+  color: #666;
+  margin-bottom: 10px;
+}
+.seleccion-pago select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.boton-envio {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.boton-envio:hover {
+  background-color: #0056b3;
+}
+
+.agradecimiento {
+  
+  text-align: center;
+  margin-top: 50px;
+}
+
+.agradecimiento p {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.agradecimiento img {
+  width: 100px; /* el tamaño  */
+  height: auto;
+  margin-left: 20px; /* espacio entre el texto y la imagen */
+  vertical-align: middle; /* para alinear verticalmente con el texto */
+}
+
+.seef{
+  padding-left: 19%;
+  padding-right: 19%;
+}
+
+footer{
+  background-color: #a9bec2;
+}
+#a{
+  font-weight: bold;
+}
